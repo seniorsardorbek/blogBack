@@ -4,7 +4,7 @@ module.exports = {
   env: process.env.NODE_ENV,
   port: process.env.PORT,
   db: {
-    host: process.env.DB_HOST,
+    host: process.env.DB_CREDINTIAL,
     port: process.env.DB_PORT,
     name: process.env.DB_NAME,
     user: process.env.DB_USER,
